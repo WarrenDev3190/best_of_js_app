@@ -1,6 +1,10 @@
 *****************
-BestOf.JS Project
+MAKEMEDEV: BestOf.JS Project
 *****************
+
+GOAL: 
+This React app should fetch a list of the top Javascript repos from Github and display them to the user. 
+Users can then explore results, allowing them to experience the Best Of JS!
 
 OVERVIEW:
 The app is comprised of 3 main components:
