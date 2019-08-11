@@ -16,29 +16,29 @@ The app is comprised of 3 main components:
 
 1. SEARCH
 The search component should capture user inputs and manipulate results to match user queries before passing results to the List component.
-    - Search Bar: 
-        The search bar is an input. 
-        Should capture user input and make it available to parent component.
+    Search Bar: 
+        - The search bar is an input. 
+        - Should capture user input and make it available to parent component.
 
-    - Sort / Filter: 
-        User should be able to select a filter option and update results. Updated results shoulg then get passed to the list view. 
-        Search terms should still be respected in the sorted result.
+    Sort / Filter: 
+        -User should be able to select a filter option and update results. Updated results should then get passed to the list view. 
+        -Search terms should still be respected in the sorted result.
 
 
 2. LIST
     The list should reflect the state of the application:
-    Communicate loading state when awaiting results from the api
-    Show total number of results
-    Show total number of searched/filtered results
-    Communicate empty state when results are empty (no results).
-    The list component houses the card component and should render one Card per result, passing that card’s result data in as props.
+    - Communicate loading state when awaiting results from the api
+    - Show total number of results
+    - Show total number of searched/filtered results
+    - Communicate empty state when results are empty (no results).
+    - The list component houses the card component and should render one Card per result, passing that card’s result data in as props.
 
 
 3. RESULT CARD
     The result card should describe one individual result item.
-    Card data should be passed into the card component as props.
-    Card should have an active class that is applied when user is searching/filtering results.
-    Card should include: 
+    - Card data should be passed into the card component as props.
+    - Card should have an active class that is applied when user is searching/filtering results.
+    - Card should include: 
         - Repo Image
         - Repo Tags
         - Repo Name
@@ -49,4 +49,4 @@ The search component should capture user inputs and manipulate results to match 
 
 
 ** Supporting Documentation: ** 
-https://developer.github.com/v3/search/
+[Github Search API](https://developer.github.com/v3/search/)
