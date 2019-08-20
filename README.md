@@ -1,6 +1,4 @@
-# MakeMeDev: BestOf.js Project Template (using React+Parcel)
-
-The **React+Parcel Starter Template** serves as a sensible starting point for _most_ React projects.
+# MakeMeDev: TheBestOf.js
 
 ## Getting Started
 
